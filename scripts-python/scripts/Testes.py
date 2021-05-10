@@ -1,2 +1,2 @@
 import emoji
-print(emoji.emojize('consegui fazer essa bosta eu acho :thumbs_up:'))
+print(emoji.emojize('consegui fazer essa b0sta após muito estresse :thumbs_up:'))

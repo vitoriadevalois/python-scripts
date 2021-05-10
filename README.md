@@ -1,2 +1,5 @@
 # Python Scripts
- Scripts de Python para estudos.
+ Olá, humano!
+ Alimente sua máquina com alguns scripts iniciantes de Python.
+ 
+ Os scripts foram elaborados a partir de desafios e exercícios encontrados no meio eletrônico.

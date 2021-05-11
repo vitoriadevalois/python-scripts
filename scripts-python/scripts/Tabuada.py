@@ -1,3 +1,4 @@
+#Programa representando a tabuada
 valor = int(input('Digite um valor: '))
 
 print('{} x 1 = {}'.format(valor, valor * 1))

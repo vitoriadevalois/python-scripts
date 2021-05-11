@@ -1,3 +1,4 @@
+#Programa utilizando .IS para receber resposta true or false sobre a variavél.
 a = input('Digite algo: ')
 
 print('O tipo primitivo desse valor é ', type(a))

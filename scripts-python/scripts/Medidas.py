@@ -1,4 +1,5 @@
-medida = float(input('Uma distância em metros: '))
+#Programa contendo a conversão de uma determinada medida em metros digitada.
+medida = float(input('Uma medida em metros: '))
 mm = medida * 1000
 cm = medida * 100
 dm = medida * 10

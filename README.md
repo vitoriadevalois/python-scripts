@@ -1,6 +1,6 @@
-# Python Scripts
+# Python Exercises (In progress)
  **Olá, humano!**
  
- Alimente sua máquina com alguns scripts iniciantes de **Python**.
+ Alimente sua máquina com alguns exercícios iniciantes de **Python**.
  
- Os scripts foram elaborados a partir de desafios e exercícios encontrados no meio eletrônico.
+ (Os exercícios foram elaborados a partir de desafios e aulas encontrados no meio eletrônico.)

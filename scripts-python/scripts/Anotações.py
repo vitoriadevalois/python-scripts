@@ -6,10 +6,8 @@
 # str("Olá", "7.5" "")
 # print(exprimir algo na tela)
 # is -> is alguma coisa, saber se é ou não true or false
-
 # {} - format para inserir no meio da frase alguma variavel
 # print("É um prazer te conhecer, {}!".format(nome))
-
 # INT - INTEIRO 
 # int(input('valor que recebe número inteiro))
 
@@ -52,6 +50,7 @@
 # from bebida import cafe (vai importar apenas o café das bebidas)
 
 # BIBLIOTECAS
+# https://docs.python.org/3/library/math.html
 # math
 # quando importamos a biblioteca math temos acesso:
 # ceil (arredondamento pra cima)

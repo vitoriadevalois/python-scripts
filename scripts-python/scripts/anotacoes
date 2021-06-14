@@ -1,64 +1,108 @@
-#Anotações e informações
+Anotações e Informações
 
-# int(7, -4, 0, 9843)
-# float(4.023, -15.323)
-# bool(True or False)
-# str("Olá", "7.5" "")
-# print(exprimir algo na tela)
-# is -> is alguma coisa, saber se é ou não true or false
-# {} - format para inserir no meio da frase alguma variavel
-# print("É um prazer te conhecer, {}!".format(nome))
-# INT - INTEIRO 
-# int(input('valor que recebe número inteiro))
+Localizar e Substituir: CRTL + H 
+ int -> (7, -4, 0, 9843)
+ float -> (4.023, -15.323)
+ bool -> (True or False)
+ str -> ("Olá", "7.5" "")
+ print -> (exprimir algo na tela)
+ is -> is alguma coisa, saber se é ou não true or false
+ {} -> format para inserir no meio da frase alguma variavel
+ != = diferente / não-igual
 
-# OPERADORES ARITMÉTICOS
-# + Adicção
-# - Subtração
-# * Multiplicação
-# / Divisão
-# ** Potência
-# // Divisão Inteira
-# % Resto da Divisão
+ Ex.: print("É um prazer te conhecer, {}!".format(nome))
+ int(input('valor que recebe número inteiro))
 
-# ORDEM DE PRECEDÊNCIA
-# 1º ()
-# 2º ** potências 
-# 3º * / // %
-# 4º + - 
+ OPERADORES ARITMÉTICOS
+ + Adicção
+ - Subtração
+ * Multiplicação
+ / Divisão
+ ** Potência
+ // Divisão Inteira
+ % Resto da Divisão
 
-# ALINHAMENTO
-#nome = input('Qual seu nome? ')
-#print('Prazer em conhecer {:=^20}'.format(nome))
+ ORDEM DE PRECEDÊNCIA
+ 1º ()
+ 2º ** potências 
+ 3º * / // %
+ 4º + - 
 
-# - Aparecer em 20 caracteres usando :20
-# print('Prazer em te conhecer {:20}!'.format(nome))
+ ALINHAMENTO
+nome = input('Qual seu nome? ')
+print('Prazer em conhecer {:=^20}'.format(nome))
 
-# - Alinhamento à direita coloca >
-# print('Prazer em te conhecer {:>20}!'.format(nome))
+ - Aparecer em 20 caracteres usando :20
+ print('Prazer em te conhecer {:20}!'.format(nome))
 
-# - Alinhamento à esquerda coloca <
-# print('Prazer em te conhecer {:<20}!'.format(nome))
+ - Alinhamento à direita coloca >
+ print('Prazer em te conhecer {:>20}!'.format(nome))
 
-# - Alinhamento centralizado coloca ^
-# print('Prazer em te conhecer {:^20}!'.format(nome))
+ - Alinhamento à esquerda coloca <
+ print('Prazer em te conhecer {:<20}!'.format(nome))
 
-# - Alinhamento com caracteres nos espaços 
-# print('Prazer em te conhecer {:=^20}!'.format(nome))
+ - Alinhamento centralizado coloca ^
+ print('Prazer em te conhecer {:^20}!'.format(nome))
 
-# IMPORTAR ITENS
-# import bebida (vai importar tudo de bebida)
-# from bebida import cafe (vai importar apenas o café das bebidas)
+ - Alinhamento com caracteres nos espaços 
+ print('Prazer em te conhecer {:=^20}!'.format(nome))
 
-# BIBLIOTECAS
-# https://docs.python.org/3/library/math.html
-# math
-# quando importamos a biblioteca math temos acesso:
-# ceil (arredondamento pra cima)
-# floor (arredondamento pra baixo)
-# trunc (eliminar da virgula da frente)
-# pow (potência)
-# sqrt (raiz quadrada)
-# factorial (fatorial de um numero)
+ IMPORTAR ITENS
+ import bebida (vai importar tudo de bebida)
+ from bebida import cafe (vai importar apenas o café das bebidas)
 
-# se eu precisar de um calculo só de raiz quadrada, então
-# from math import sqrt
+ BIBLIOTECAS
+ Link com as bibliotecas python: https://docs.python.org/3/library/math.html
+ 
+ Biclioteca Math:
+ ceil -> (arredondamento pra cima)
+ floor -> (arredondamento pra baixo)
+ trunc -> (eliminar da virgula da frente)
+ pow -> (potência)
+ sqrt -> (raiz quadrada)
+ factorial -> (fatorial de um numero)
+
+(Se precisar de um calculo só de raiz quadrada, então: from math import sqrt)
+
+CONDIÇÕES
+Temos um bloco para verdadeiro (bloco_v_) e um bloco pra falso bloco_v_
+
+Ex.: 
+if carro.esquerda():
+    bloco True
+else:
+    bloco False
+
+Cores no terminal:
+\033[ style  text   back m
+
+\033[0;33;44m
+style 0 -> sem estilo
+33 -> texto
+44 -> back
+
+Styles:
+0 -> nenhum
+1 -> negrito
+4 -> sublinhado
+7 -> negativo
+
+Text:
+30 branco
+31 vermelho
+32 verdadeiro
+33 amarelo
+34 azul
+35 roxo
+36 azul ciano
+37 cinza (padrão)
+
+Back (fundo):
+40 branco
+41 vermelho
+42 verde 
+43 amarelo
+44 azul
+45 roxo
+46 azul ciano 
+47 cinza 

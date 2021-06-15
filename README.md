@@ -1,6 +1,7 @@
-# Python Exercises (In progress)
- **Olá, humano!**
- 
- Alimente sua máquina com alguns exercícios iniciantes de **Python**.
- 
- (Os exercícios foram elaborados a partir de desafios e aulas encontrados no meio eletrônico.)
+# Python Exercises (in progress)
+
+**Hey, human!**
+
+Feed your machine and brain with some beginner Python exercises.
+
+(The exercises were developed from challenges and classes found on the Internet.)

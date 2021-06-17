@@ -1,10 +1,15 @@
-Anotações e Informações
+ANOTAÇÕES E INFORMAÇÕES ÚTEIS
 
-Localizar e Substituir: CRTL + H 
+ATALHOS:
+ Localizar e Substituir: CRTL + H
+ Abrir uma abreviação: CRTL + SHIFT + P (Selecionar Emmet: Wrap With Abbreviation)
+
+TIPOS DE VARIÁVEL:
  int -> (7, -4, 0, 9843)
  float -> (4.023, -15.323)
  bool -> (True or False)
  str -> ("Olá", "7.5" "")
+
  print -> (exprimir algo na tela)
  is -> is alguma coisa, saber se é ou não true or false
  {} -> format para inserir no meio da frase alguma variavel
@@ -13,24 +18,32 @@ Localizar e Substituir: CRTL + H
  Ex.: print("É um prazer te conhecer, {}!".format(nome))
  int(input('valor que recebe número inteiro))
 
- OPERADORES ARITMÉTICOS
+OPERADORES ARITMÉTICOS
  + Adicção
  - Subtração
  * Multiplicação
- / Divisão
+ / Divisão (float division)
  ** Potência
- // Divisão Inteira
+ // Divisão Inteira (integer division)
  % Resto da Divisão
 
- ORDEM DE PRECEDÊNCIA
+OPERADORES DE COMPARAÇÃO:
+ < - menor que
+ > - maior que
+ <= - menor ou igual a
+ >= - maior ou igual a
+ == - igual a
+ != - diferente de
+
+ORDEM DE PRECEDÊNCIA
  1º ()
  2º ** potências 
  3º * / // %
  4º + - 
 
- ALINHAMENTO
-nome = input('Qual seu nome? ')
-print('Prazer em conhecer {:=^20}'.format(nome))
+ALINHAMENTO
+ nome = input('Qual seu nome? ')
+ print('Prazer em conhecer {:=^20}'.format(nome))
 
  - Aparecer em 20 caracteres usando :20
  print('Prazer em te conhecer {:20}!'.format(nome))
@@ -51,10 +64,10 @@ print('Prazer em conhecer {:=^20}'.format(nome))
  import bebida (vai importar tudo de bebida)
  from bebida import cafe (vai importar apenas o café das bebidas)
 
- BIBLIOTECAS
+BIBLIOTECAS
  Link com as bibliotecas python: https://docs.python.org/3/library/math.html
  
- Biclioteca Math:
+BIBLIOTECA MATH:
  ceil -> (arredondamento pra cima)
  floor -> (arredondamento pra baixo)
  trunc -> (eliminar da virgula da frente)
@@ -62,47 +75,88 @@ print('Prazer em conhecer {:=^20}'.format(nome))
  sqrt -> (raiz quadrada)
  factorial -> (fatorial de um numero)
 
-(Se precisar de um calculo só de raiz quadrada, então: from math import sqrt)
+IMPORTAÇÃO
+ Utilizar import (nome da biblioteca)
+ (Se precisar de um calculo só de raiz quadrada, então: from math import sqrt)
 
 CONDIÇÕES
-Temos um bloco para verdadeiro (bloco_v_) e um bloco pra falso bloco_v_
+ IF, ELIF e ELSE:
+ IF -> se 
+ ELIF -> usado para mais de uma condição e PERMITE receber condição
+ ELSE -> NÃO permite receber condição e é usado para finalizar
 
-Ex.: 
-if carro.esquerda():
+  Temos um bloco para verdadeiro (bloco_v_) e um bloco pra falso bloco_v_
+ 
+ Ex.: 
+ if carro.esquerda():
     bloco True
-else:
+ else:
     bloco False
 
-Cores no terminal:
-\033[ style  text   back m
+ WHILE:
+ Laço usado como "looping", enquanto tal coisa estiver acontecendo então...
 
-\033[0;33;44m
-style 0 -> sem estilo
-33 -> texto
-44 -> back
+ FOR:
+ for (alguma coisa) in range(1,10):
 
-Styles:
-0 -> nenhum
-1 -> negrito
-4 -> sublinhado
-7 -> negativo
+CORES NO TERMINAL:
+ \033[ style  text   back m
 
-Text:
-30 branco
-31 vermelho
-32 verdadeiro
-33 amarelo
-34 azul
-35 roxo
-36 azul ciano
-37 cinza (padrão)
+ \033[0;33;44m
+ style 0 -> sem estilo
+ 33 -> texto
+ 44 -> back
 
-Back (fundo):
-40 branco
-41 vermelho
-42 verde 
-43 amarelo
-44 azul
-45 roxo
-46 azul ciano 
-47 cinza 
+TABELA DE CORES LETRAS NO TERMINAL
+ \033[31m Vermelho
+ \033[32m Verde
+ \033[33m Amarelo
+ \033[34m Azul
+ \033[35m Roxo
+ \033[36m AzulCiano
+ \033[37m Branco
+ \033[0;30;40m Preto
+ (Para inserir apenas em um local utilizar {} e fechar com \033[m)
+
+TABELA DE CORES FUNDO NO TERMINAL
+ \033[1;31;44mOlá Fundo Azul
+ \033[4;32;43mOlá Fundo Amarelo
+ \033[7;34;42mOlá Fundo AzulEscuro
+ \033[7;40;40mOlá Fundo Branco
+ \033[0;35;46mOlá Fundo Pandemia
+ \033[0;36;45mOlá Fundo Rosa
+ (Para inserir apenas em um local utilizar {} e fechar com \033[m)
+
+ESTILOS NO TERMINAL:
+ 0 -> nenhum
+ 1 -> negrito
+ 4 -> sublinhado
+ 7 -> negativo
+
+SUBSTITUIR VOCÊ MESMO:
+ Text:
+ 30 branco
+ 31 vermelho
+ 32 verdadeiro
+ 33 amarelo
+ 34 azul
+ 35 roxo
+ 36 azul ciano
+ 37 cinza (padrão)
+
+ Back (fundo):
+ 40 branco
+ 41 vermelho
+ 42 verde 
+ 43 amarelo
+ 44 azul
+ 45 roxo
+ 46 azul ciano 
+ 47 cinza 
+
+FORMATAÇÃO DE STRING:
+ https://docs.python.org/3/library/string.html#formatexamples
+
+BUILTIN FUNCTIONS (funções embutidas):
+ https://docs.python.org/3/library/functions.html
+

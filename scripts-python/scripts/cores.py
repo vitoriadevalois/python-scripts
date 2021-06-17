@@ -1,3 +1,4 @@
+#TABELA CORES DA LETRA
 print('\033[31mOlá, Mundo!') #Vermelho
 print('\033[32mOlá, Mundo!') #Verde
 print('\033[33mOlá, Mundo!') #Amarelo
@@ -5,8 +6,9 @@ print('\033[34mOlá, Mundo!') #Azul
 print('\033[35mOlá, Mundo!') #Roxo
 print('\033[36mOlá, Mundo!') #AzulCiano
 print('\033[37mOlá, Mundo!') #Branco
-
 print('\033[0;30;40mOlá, Mundo!') #Preto
+
+#TABELA DE FUNDO DA LETRA
 print('\033[1;31;44mOlá, Mundo!\033[m') #Fundo Azul
 print('\033[4;32;43mOlá, Mundo!\033[m') #Fundo Amarelo
 print('\033[7;34;42mOlá, Mundo!\033[m') #Fundo AzulEscuro

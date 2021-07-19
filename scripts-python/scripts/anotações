@@ -213,3 +213,8 @@ MANIPULANDO TEXTOS:
  JUNÇÃO
  Junção das frases por -
  '-'.join(frase)
+
+WHILE E FOR: 
+ Sabendo o LIMITE (um valor máximo) então podemos usar FOR ou WHILE.
+
+ Se não sabemos o LIMITE então usamos WHILE até que seja atingido o limite desejado pelo usuário.

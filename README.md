@@ -1,7 +1,4 @@
-# Python Exercises (in progress)
+# Exercícios Python
 
-**Hey, human!**
-
-Feed your machine and brain with some beginner Python exercises.
-
-(The exercises were developed from challenges and classes found on the Internet.)
+Olá!
+Aqui temos alguns scripts em Python, feitos a partir de aulas para iniciantes no assunto.

@@ -1,3 +1,5 @@
+#Programa exemplificando condição aninhada, verificando nomes e exibindo respostas diferentes.
+
 nome = str(input('Qual é o seu nome? '))
 if nome == 'Vitória':
     print('Que nome incrível você tem.')

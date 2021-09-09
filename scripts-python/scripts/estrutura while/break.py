@@ -1,0 +1,1 @@
+#É muito importante saber usar o break no Python, já que em alguns casos precisamos interromper um laço no meio do caminho.

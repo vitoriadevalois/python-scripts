@@ -218,3 +218,6 @@ WHILE E FOR:
  Sabendo o LIMITE (um valor máximo) então podemos usar FOR ou WHILE.
 
  Se não sabemos o LIMITE então usamos WHILE até que seja atingido o limite desejado pelo usuário.
+
+BREAK:
+ É muito importante saber usar o break no Python, já que em alguns casos precisamos interromper um laço no meio do caminho.

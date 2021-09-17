@@ -1,4 +1,3 @@
 # Exercícios Python
 
-Olá!
-Aqui temos alguns scripts em Python, feitos a partir de aulas para iniciantes no assunto.
+Scripts usando a linguagem de programação Python, feitos a partir de aulas para iniciantes no assunto.

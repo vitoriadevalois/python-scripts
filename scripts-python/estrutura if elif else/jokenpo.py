@@ -1,3 +1,5 @@
+#Programa para jogar JOKENPO com o computador.
+
 from random import randint
 itens = ('Pedra', 'Papel', 'Tesoura')
 computador = randint(0, 2)

@@ -1,3 +1,5 @@
+#Programa que mostra formas de pagamento e parcelamento em uma loja.
+
 print('{:=^40}'.format(' LOJAS VIVI '))
 preço = float(input('Preço das compras: R$'))
 print('''FORMAS DE PAGAMENTO

@@ -1,6 +1,6 @@
 ANOTAÇÕES E INFORMAÇÕES ÚTEIS
 
-ATALHOS:
+ATALHOS VSCODE:
  Localizar e Substituir: CRTL + H
  Abrir uma abreviação: CRTL + SHIFT + P (Selecionar Emmet: Wrap With Abbreviation)
 
@@ -221,3 +221,6 @@ WHILE E FOR:
 
 BREAK:
  É muito importante saber usar o break no Python, já que em alguns casos precisamos interromper um laço no meio do caminho.
+
+LISTAS:
+

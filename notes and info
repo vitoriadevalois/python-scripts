@@ -1,8 +1,9 @@
-ANOTAÇÕES E INFORMAÇÕES ÚTEIS
+NOTES AND INFO
 
 ATALHOS VSCODE:
  Localizar e Substituir: CRTL + H
  Abrir uma abreviação: CRTL + SHIFT + P (Selecionar Emmet: Wrap With Abbreviation)
+ Adicionar comentário em linhas selecionadas: CRTL + ;
 
 TIPOS DE VARIÁVEL:
  int -> (7, -4, 0, 9843)
@@ -133,7 +134,7 @@ ESTILOS NO TERMINAL:
  4 -> sublinhado
  7 -> negativo
 
-SUBSTITUIR VOCÊ MESMO:
+SUBSTITUIR CORES VOCÊ MESMO:
  Text:
  30 branco
  31 vermelho
@@ -221,6 +222,3 @@ WHILE E FOR:
 
 BREAK:
  É muito importante saber usar o break no Python, já que em alguns casos precisamos interromper um laço no meio do caminho.
-
-LISTAS:
-

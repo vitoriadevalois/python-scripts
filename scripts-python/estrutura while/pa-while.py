@@ -1,4 +1,5 @@
 #Programa que lê o primeiro termo e a razão de uma PA (progressão aritmética).No final, mostrando os 10 primeiros termos dessa progressão, utilizando while. O programa pergunta se o usuário quer mostrar mais alguns termos e encerra quando o usuário disser que quer mostrar 0 termos.
+
 print('Gerador de PA')
 print('-=' * 10)
 

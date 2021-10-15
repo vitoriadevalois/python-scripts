@@ -1,3 +1,5 @@
+#Programa jogo de adivinhação com o computador.
+
 import random
 total_de_tentativas = 10
 pontos = 1000

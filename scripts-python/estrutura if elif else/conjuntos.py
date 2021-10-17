@@ -31,6 +31,15 @@ print('O conjunto B é um conjunto superset (supraconjunto) do conjunto A?: {}'.
 conjunto_superset = conjunto_a.issuperset(conjunto_b)
 print('O conjunto A é um conjunto superset (supraconjunto) do conjunto B?: {}'.format(conjunto_superset))
 
+#Como converter uma lista em conjunto
+lista = ['cachorro', 'cachorro', 'gato', 'gato', 'elefante']
+conjunto_animais = set(lista)
+print(conjunto_animais)
+
+#Como converter conjunto em lista
+lista_naimais = list(conjunto_animais)
+print(lista_naimais)
+
 # Outras funções:
 # conjunto.add(5)  #para adicionar um elemento no conjunto
 # conjunto.discard(2) #para remover um elemento no conjunto

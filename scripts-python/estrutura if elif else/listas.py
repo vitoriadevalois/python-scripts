@@ -16,15 +16,18 @@ print(len(tupla))
 #     print('Não existe um lobo na lista. Será incluído.')
 #     lista_animal.append('lobo') #o .append irá adicionar na lista o lobo
 #     print(lista_animal)
+
 # 
 # lista.sort() # .sort será utilizado para colocar em ordem a lista
 # lista_animal.sort()
 # print(lista)
 # print(lista_animal)
 # lista_animal.reverse() # .reverse será utilizado para reverter
+
 #  
 # lista_animal.pop() #irá retirar a última posição da lista, dentro do parenteses podemos colocar o número contendo a posição que queremos tirar
 # print(lista_animal)
+
 # 
 # lista_animal.remove('elefante') irá remover determinado elemento que já conhecemos
 # print(lista_animal)

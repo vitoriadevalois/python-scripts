@@ -1,0 +1,4 @@
+Cesar,7,9,9,6
+Vitoria,10,10,9,7
+Felipe,10,9,6,4
+Fernanda,10,4,5,8

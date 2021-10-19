@@ -78,7 +78,7 @@ BIBLIOTECA MATH:
 
 IMPORTAÇÃO
  Utilizar import (nome da biblioteca)
- (Se precisar de um calculo só de raiz quadrada, então: from math import sqrt)
+ (Por exemplo, se precisar de um calculo só de raiz quadrada, então: from math import sqrt)
 
 CONDIÇÕES
  IF, ELIF e ELSE:

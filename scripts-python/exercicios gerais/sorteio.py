@@ -7,6 +7,7 @@ n2 = int(input('Segundo elemento: '))
 escolhido = random.randint(n1, n2)
 
 print('O elemento escolhido foi {}'.format(escolhido))
+print('-' * 40)
 
 #Programa para sortear a ordem entre elementos escolhidos.
 from random import shuffle

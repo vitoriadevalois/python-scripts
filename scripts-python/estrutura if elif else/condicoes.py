@@ -12,6 +12,7 @@ if jogador == número:
 else:
     print('Ganhei de você, humano! Eu pensei no número {} e não no {}!'.format(número, jogador))
 
+print('-' * 40)
 
 #Programa Multa de trânsito:
 velocidade = float(input('Qual é a velocidade atual do carro? '))
@@ -22,6 +23,8 @@ if velocidade > 80:
 else:
     print('Tenha um bom dia! Dirija com segurança!')
 
+print('-' * 40)
+
 #Programa Par ou Impar:
 numero = int(input('Me diga um número qualquer: '))
 resultado = numero % 2
@@ -29,6 +32,8 @@ if resultado == 0:
     print('{} é um número par.'.format(numero))
 else:
     print('{} é um número ímpar.'.format(numero))
+
+print('-' * 40)
 
 #Programa Custo da Viagem:
 distancia = float(input('Qual é a distância da sua viagem? '))
@@ -39,6 +44,8 @@ else:
     preço = distancia * 0.45
 print('E o preço da sua pasasgem sera de R${:.2f}'.format(preço))
 
+print('-' * 40)
+
 #Programa Ano Bissexto:
 ano = int(input('Que ano quer analisar? '))
 if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
@@ -46,10 +53,15 @@ if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
 else:
     print('O ano {} NÃO é BISSEXTO'.format(ano))
 
+print('-' * 40)
+
 #Programa lendo 3 números
 a = int(input('Primeiro valor: '))
 b = int(input('Segundo valor: '))
 c = int(input('Terceiro valor: '))
+
+print('-' * 40)
+
 #Verificando quem é o menor:
 menor = a 
 
@@ -57,6 +69,8 @@ if b<a and b<c:
     menor = b
 if c<a and c<b:
     menor = c
+
+print('-' * 40)
 
 #Verificando quem é o maior:
 maior = a
@@ -68,6 +82,8 @@ if c>a and c>b:
 print('O menor valor digitado foi {}.'.format(menor))
 print('O maior valor digitador foi {}'.format(maior))
 
+print('-' * 40)
+
 #Aumento salarial
 salario = float(input('Qual é o salário do funcionário? R$'))
 if salario <= 1250:
@@ -75,6 +91,8 @@ if salario <= 1250:
 else: 
     novo = salario + (salario * 10 / 100)
 print('Quem ganhava R${:.2f} passa a ganhar R${:.2f} agora.'.format(salario, novo))
+
+print('-' * 40)
 
 #Analisando Triângulos
 #Cada um dos segmentos devem ser menor do que a soma do comprimento dos outros dois.

@@ -2,6 +2,7 @@
 valor = int(input('Digite um valor: '))
 raiz = float(valor) ** 0.5  #ou então (1/2)
 print('O valor é {} \nO dobro é {} \nO triplo é {} \nA raiz quadrada é {:.2f}'.format(valor, valor*2, valor*3, raiz))
+print('-' * 40)
 
 #Programa de Raiz quadrada utilizando sqrt
 from math import sqrt
@@ -9,6 +10,7 @@ num = int(input('Digite um número: '))
 raiz = sqrt(num)
 
 print('A raiz de {} é igual a {}.'.format(num, raiz))
+print('-' * 40)
 
 #Programa de Soma
 n1 = int(input('Um valor: '))
@@ -22,6 +24,7 @@ e = n1 ** n2
 print('\n A soma é {} \n O produto é {} \n A divisão é {:.1f}'.format(s, m, d), end=' ')
 
 print('\n A divisão inteira é {} \n A potência é {}'.format(di, e))
+print('-' * 40)
 
 #Programa para saber antecessor e sucessor de um número
 valor = int(input('Digite um valor: '))

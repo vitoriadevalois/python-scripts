@@ -22,20 +22,21 @@
  ## CONDIÇÕES 💻
  São elas: if, elif, else, while, for.
  
- ▫️ IF -> "se" 
+ ▫️ IF -> Utilizamos o comando if para verificar uma expressão e executar um bloco de código caso a condição definida seja verdadeira. É importante dizer que a instrução if pode ser utilizada sozinha, ou seja, apenas para executar algo se a condição for verdadeira. Observe que devemos utilizar o caractere dois pontos “:” ao final da instrução.
  
- ▫️ ELIF -> usado para mais de uma condição e PERMITE receber condição
- 
- ▫️ ELSE -> NÃO permite receber condição e é usado para finalizar
+ ▫️ ELIF -> O comando elif é utilizado quando queremos realizar a verificação de outra expressão caso a primeira validação seja falsa. 
 
-  Temos um bloco para verdadeiro (bloco_v_) e um bloco pra falso bloco_v_
+ `if (expressão_for_verdadeira):
+    executar_primeiro_bloco_de_codigo()
+elseif (segunda_expressão_for_verdadeira):
+    executar_segundo_bloco_de_codigo()`
  
- Ex.: 
- 
- `if carro.esquerda():
-    bloco True
- else:
-    bloco False`
+ ▫️ ELSE -> O comando else é utilizado para executar um bloco de código, caso o resultado da expressão informada na instrução if seja falso. Vale ressaltar que a instrução else só pode ser utilizada em conjunto com o if. Perceba que também precisamos utilizar o caractere dois pontos após a expressão da instrução if e após o else.
+
+`if (expressão_for_verdadeira):
+    executar_primeiro_bloco_de_codigo()
+else:
+    executar_segundo_bloco_de_codigo()`
 
  WHILE -> Laço usado como "looping", enquanto tal coisa estiver acontecendo então...
 
@@ -44,11 +45,13 @@ while (contador < 5):
        print(contador)
        contador   = contador + 1`
  
- FOR -> O laço for nos permite percorrer os itens de uma coleção e, para cada um deles, executar o bloco de código declarado no loop.
- 
- `nomes = ['Vitória', 'João', 'Leticia']
-  for n in nomes:
-     print(n)`
+ FOR -> Este laço utiliza uma variável para controlar a contagem do loop, bem como seu incremento. Trata-se de um comando bem enxuto, já que própria estrutura faz a inicialização, incremento e encerramento do laço.
+
+A estrutura for pode ser exemplificada como: 
+
+`for c in range(0, 6, 2):
+    print(c)
+print('Fim!')`
      
   > Diferença While e For:
   > 

@@ -1,7 +1,0 @@
-Este laço utiliza uma variável para controlar a contagem do loop, bem como seu incremento. Trata-se de um comando bem enxuto, já que própria estrutura faz a inicialização, incremento e encerramento do laço.
-
-A estrutura for pode ser exemplificada como: 
-
-for c in range(0, 6, 2):
-    print(c)
-print('Fim!')

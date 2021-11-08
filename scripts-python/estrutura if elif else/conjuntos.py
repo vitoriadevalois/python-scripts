@@ -17,6 +17,8 @@ print('Diferença entre 2 e 1: {}'.format(conjunto_diferenca2))
 conjunto_diff_simetrica = conjunto.symmetric_difference(conjunto2) #com .symetric_difference podemos saber a diferença simétrica entre os conjuntos.
 print('Diferença simétrica: {}'.format(conjunto_diff_simetrica))
 
+print('-' * 40)
+
 #Descobrindo o subset (subconjunto)
 conjunto_a = {1, 2, 3}
 conjunto_b = {1, 2, 3, 4, 5}
@@ -25,16 +27,22 @@ print('O conjunto A é um conjunto subset do conjunto B?: {}'.format(conjunto_su
 conjunto_subset = conjunto_b.issubset(conjunto_a)
 print('O conjunto B é um conjunto subset do conjunto A?: {}'.format(conjunto_subset))
 
+print('-' * 40)
+
 #Descobrindo o superset (supraconjunto)
 conjunto_superset = conjunto_b.issuperset(conjunto_a)
 print('O conjunto B é um conjunto superset (supraconjunto) do conjunto A?: {}'.format(conjunto_superset))
 conjunto_superset = conjunto_a.issuperset(conjunto_b)
 print('O conjunto A é um conjunto superset (supraconjunto) do conjunto B?: {}'.format(conjunto_superset))
 
+print('-' * 40)
+
 #Como converter uma lista em conjunto
 lista = ['cachorro', 'cachorro', 'gato', 'gato', 'elefante']
 conjunto_animais = set(lista)
 print(conjunto_animais)
+
+print('-' * 40)
 
 #Como converter conjunto em lista
 lista_naimais = list(conjunto_animais)

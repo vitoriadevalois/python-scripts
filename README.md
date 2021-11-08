@@ -1,5 +1,5 @@
 # 💭 Exercícios Python
-> Esse repositório contém exercícios resolvidos por Vitória de Valois, a partir das propostas do @Curso em Vídeo, no curso Python.
+> Esse repositório contém exercícios resolvidos por Vitória de Valois.
 
 ## 💻 Tecnologias Usadas
 

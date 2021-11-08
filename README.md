@@ -17,6 +17,4 @@
   
 [3 - Scripts com estrutura if, elif, else](https://github.com/vitoriadevalois/python-scripts/tree/main/scripts-python/estrutura%20if%20elif%20else)
   
-[4 - Scripts com estrutura while](https://github.com/vitoriadevalois/python-scripts/tree/main/scripts-python/estrutura%20while)
-  
-[5 - Scripts com estrutura for](https://github.com/vitoriadevalois/python-scripts/tree/main/scripts-python/estrutura%20for)
+[4 - Scripts com estrutura for](https://github.com/vitoriadevalois/python-scripts/tree/main/scripts-python/estrutura%20for)

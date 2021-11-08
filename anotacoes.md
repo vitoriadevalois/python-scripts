@@ -56,6 +56,27 @@ while (contador < 5):
   > 
   > Se não sabemos o LIMITE então usamos WHILE até que seja atingido o limite desejado pelo usuário.
 
+WHILE -> O comando while faz com que um conjunto de instruções seja executado enquanto uma condição é atendida. Quando o resultado dessa condição passa a ser falso, a execução do loop é interrompida, como mostra o exemplo a seguir:
+
+`contador = 0
+while (contador < 5):
+       print(contador)
+       contador   = contador + 1`
+
+Neste código, enquanto a variável contador, inicializada com 0, for menor do que 5, as instruções das linhas 3 e 4 serão executadas.
+
+
+WHILE-ELSE -> Ao final do while podemos utilizar a instrução else. O propósito disso é executar alguma instrução ou bloco de código ao final do loop, como podemos ver no exemplo a seguir:
+
+`contador = 0
+while (contador < 5):
+      print(contador)
+      contador = contador + 1
+else:
+      print("O loop while foi encerrado com sucesso!")`
+
+Assim como acontece com for/else, declarando o else ao final do while é possível executar um código ao final do loop. Neste caso será impressa a mensagem: “O loop while foi encerrado com sucesso!”.
+
 ## BREAK 💻
  É muito importante saber usar o break no Python, já que em alguns casos precisamos interromper um laço no meio do caminho.
  

@@ -1,6 +1,7 @@
-# Anotações e informações úteis
+  # <p align="center"> 💻 Anotações e Informações Úteis 💻
+  [![JAVA](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)](#)
 
-## ATALHOS VSCODE:
+## ATALHOS VSCODE 💻
  
  | Função | Atalho |
  | --- | --- |
@@ -8,7 +9,7 @@
  | Abrir uma abreviação | CRTL + SHIFT + P (Selecionar Emmet: Wrap With Abbreviation) |
  | Adicionar comentário em linhas selecionadas | CRTL + ; |
 
-## TIPOS DE VARIÁVEL:
+## TIPOS DE VARIÁVEL PYTHON 💻
 
  ▫️ int -> (7, -4, 0, 9843)
  
@@ -18,115 +19,7 @@
  
  ▫️ str -> ("Olá", "7.5" "")
 
-## BÁSICO:
-
- ▫️ print -> (exprimir algo na tela)
- 
- ▫️ is -> is alguma coisa, saber se é ou não true or false
- 
- ▫️ {} -> format para inserir no meio da frase alguma variavel
- 
- ▫️ != = diferente / não-igual
-
- Ex.: 
- 
- `print("É um prazer te conhecer, {}!".format(nome))
- int(input('valor que recebe número inteiro))`
-
-## OPERADORES ARITMÉTICOS
-
- ▫️ + Adicção
- 
- ▫️ - Subtração
- 
- ▫️ * Multiplicação
- 
- ▫️ / Divisão (float division)
- 
- ▫️ ** Potência
- 
- ▫️ // Divisão Inteira (integer division)
- 
- ▫️ % Resto da Divisão
-
-## OPERADORES DE COMPARAÇÃO:
- 
- ▫️ < - menor que
- 
- ▫️ > - maior que
- 
- ▫️ <= - menor ou igual a
- 
- ▫️ >= - maior ou igual a
- 
- ▫️ == - igual a
- 
- ▫️ != - diferente de
-
-## ORDEM DE PRECEDÊNCIA
- ▫️ 1º ()
- 
- ▫️ 2º ** potências 
- 
- ▫️ 3º * / // %
- 
- ▫️ 4º + - 
-
-## ALINHAMENTO
-
- `nome = input('Qual seu nome? ')
- 
- print('Prazer em conhecer {:=^20}'.format(nome))`
-
- - Aparecer em 20 caracteres usando :20
- 
- `print('Prazer em te conhecer {:20}!'.format(nome))`
-
- - Alinhamento à direita coloca >
- 
- `print('Prazer em te conhecer {:>20}!'.format(nome))`
-
- - Alinhamento à esquerda coloca <
- 
- `print('Prazer em te conhecer {:<20}!'.format(nome))`
-
- - Alinhamento centralizado coloca ^
- 
- `print('Prazer em te conhecer {:^20}!'.format(nome))`
-
- - Alinhamento com caracteres nos espaços 
- 
- `print('Prazer em te conhecer {:=^20}!'.format(nome))`
-
- ## IMPORTAR ITENS
- 
- `import [bebida]` (vai importar tudo de bebida)
- 
- `from [bebida] import cafe` (vai importar apenas o café das bebidas)
-
-## BIBLIOTECAS
- Link com as bibliotecas python: https://docs.python.org/3/library/math.html
- 
-## BIBLIOTECA MATH:
-
- ▫️ ceil -> (arredondamento pra cima)
- 
- ▫️ floor -> (arredondamento pra baixo)
- 
- ▫️ trunc -> (eliminar da virgula da frente)
- 
- ▫️ pow -> (potência)
- 
- ▫️ sqrt -> (raiz quadrada)
- 
- ▫️ factorial -> (fatorial de um numero)
-
-## IMPORTAÇÃO
- Utilizar import (nome da biblioteca)
- 
- Exemplo: se precisar de um calculo só de raiz quadrada, então: `from math import sqrt`
-
-## CONDIÇÕES
+ ## CONDIÇÕES 💻
  São elas: if, elif, else, while, for.
  
  ▫️ IF -> "se" 
@@ -163,10 +56,118 @@ while (contador < 5):
   > 
   > Se não sabemos o LIMITE então usamos WHILE até que seja atingido o limite desejado pelo usuário.
 
-## BREAK:
+## BREAK 💻
  É muito importante saber usar o break no Python, já que em alguns casos precisamos interromper um laço no meio do caminho.
+ 
+## BÁSICO 💻
 
-## CORES NO TERMINAL:
+ ▫️ print -> (exprimir algo na tela)
+ 
+ ▫️ is -> is alguma coisa, saber se é ou não true or false
+ 
+ ▫️ {} -> format para inserir no meio da frase alguma variavel
+ 
+ ▫️ != = diferente / não-igual
+
+ Ex.: 
+ 
+ `print("É um prazer te conhecer, {}!".format(nome))
+ int(input('valor que recebe número inteiro))`
+
+## OPERADORES ARITMÉTICOS 💻
+
+ ▫️ + Adicção
+ 
+ ▫️ - Subtração
+ 
+ ▫️ * Multiplicação
+ 
+ ▫️ / Divisão (float division)
+ 
+ ▫️ ** Potência
+ 
+ ▫️ // Divisão Inteira (integer division)
+ 
+ ▫️ % Resto da Divisão
+
+## OPERADORES DE COMPARAÇÃO 💻
+ 
+ ▫️ < - menor que
+ 
+ ▫️ > - maior que
+ 
+ ▫️ <= - menor ou igual a
+ 
+ ▫️ >= - maior ou igual a
+ 
+ ▫️ == - igual a
+ 
+ ▫️ != - diferente de
+
+## ORDEM DE PRECEDÊNCIA 💻
+ ▫️ 1º ()
+ 
+ ▫️ 2º ** potências 
+ 
+ ▫️ 3º * / // %
+ 
+ ▫️ 4º + - 
+
+## ALINHAMENTO 💻
+
+ `nome = input('Qual seu nome? ')
+ 
+ print('Prazer em conhecer {:=^20}'.format(nome))`
+
+ - Aparecer em 20 caracteres usando :20
+ 
+ `print('Prazer em te conhecer {:20}!'.format(nome))`
+
+ - Alinhamento à direita coloca >
+ 
+ `print('Prazer em te conhecer {:>20}!'.format(nome))`
+
+ - Alinhamento à esquerda coloca <
+ 
+ `print('Prazer em te conhecer {:<20}!'.format(nome))`
+
+ - Alinhamento centralizado coloca ^
+ 
+ `print('Prazer em te conhecer {:^20}!'.format(nome))`
+
+ - Alinhamento com caracteres nos espaços 
+ 
+ `print('Prazer em te conhecer {:=^20}!'.format(nome))`
+
+ ## IMPORTAR ITENS 💻
+ 
+ `import [bebida]` (vai importar tudo de bebida)
+ 
+ `from [bebida] import cafe` (vai importar apenas o café das bebidas)
+
+## BIBLIOTECAS 💻
+ Link com as bibliotecas python: https://docs.python.org/3/library/math.html
+ 
+## BIBLIOTECA MATH 💻
+
+ ▫️ ceil -> (arredondamento pra cima)
+ 
+ ▫️ floor -> (arredondamento pra baixo)
+ 
+ ▫️ trunc -> (eliminar da virgula da frente)
+ 
+ ▫️ pow -> (potência)
+ 
+ ▫️ sqrt -> (raiz quadrada)
+ 
+ ▫️ factorial -> (fatorial de um numero)
+
+## IMPORTAÇÃO 💻
+ Utilizar import (nome da biblioteca)
+ 
+ Exemplo: se precisar de um calculo só de raiz quadrada, então: `from math import sqrt`
+
+## CORES NO TERMINAL 💻
 
  \033[ style  text   back m
 
@@ -175,7 +176,7 @@ while (contador < 5):
  33 -> texto
  44 -> back
 
-## TABELA DE CORES LETRAS NO TERMINAL
+## TABELA DE CORES LETRAS NO TERMINAL 💻
 
  ▫️ \033[31m Vermelho
  
@@ -195,7 +196,7 @@ while (contador < 5):
  
  (Para inserir apenas em um local utilizar {} e fechar com \033[m)
 
-## TABELA DE CORES FUNDO NO TERMINAL
+## TABELA DE CORES FUNDO NO TERMINAL 💻
 
  ▫️ \033[1;31;44mOlá Fundo Azul
  
@@ -211,7 +212,7 @@ while (contador < 5):
  
  (Para inserir apenas em um local utilizar {} e fechar com \033[m)
 
-## ESTILOS NO TERMINAL:
+## ESTILOS NO TERMINAL 💻
  
  0 -> nenhum
  
@@ -221,7 +222,7 @@ while (contador < 5):
  
  7 -> negativo
 
-## SUBSTITUIR CORES VOCÊ MESMO:
+## SUBSTITUIR CORES VOCÊ MESMO 💻
  
  Text:
  
@@ -259,13 +260,13 @@ while (contador < 5):
  
  ▫️ 47 cinza 
 
-## FORMATAÇÃO DE STRING:
+## FORMATAÇÃO DE STRING 💻
  https://docs.python.org/3/library/string.html#formatexamples
 
-## BUILTIN FUNCTIONS (funções embutidas):
+## BUILTIN FUNCTIONS (funções embutidas) 💻
  https://docs.python.org/3/library/functions.html
 
-## MANIPULANDO TEXTOS:
+## MANIPULANDO TEXTOS 💻
 
  ### FATIAMENTO
  Entre colchetes colocamos o número, referente a lacuna reservada na memória do computador, que queremos na tela.
@@ -284,7 +285,7 @@ while (contador < 5):
  
  Obs.: Se o valor devolvido for -1 = não foi encontrado.
 
- ## TRANSFORMAÇÃO
+ ## TRANSFORMAÇÃO 💻
  
  | Função | Comando |
  | --- | --- |
@@ -297,13 +298,13 @@ while (contador < 5):
  | Remover os últimos espaços do lado right | `frase.rstrip()` |
  | Remover os primeiros espaços do lado esquerdo | `frase.lstrip()` |
 
- ## DIVISÃO
+ ## DIVISÃO 💻 
  
  | Função | Comando |
  | --- | --- |
  | Gera uma lista com todas as palavras numa cadeia de caracteres | `frase.split()` |
 
- # JUNÇÃO
+ ## JUNÇÃO 💻
  
  | Função | Comando |
  | --- | --- |

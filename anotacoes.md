@@ -333,3 +333,11 @@ Assim como acontece com for/else, declarando o else ao final do while é possív
  | Função | Comando |
  | --- | --- |
  | Junção das frases por - | `'-'.join(frase)` |
+
+ ## TIPO LIST 💻
+ 
+ | Função | Comando |
+ | --- | --- |
+ | Remove o último elemento de uma lista ou elemento da posição informada | `pop()` |
+ | Remove um elemento de uma lista pelo nome do elemento | `remove()` |
+ | Acrescenta um novo valor para a lista, esse valor é sempre adicionado ao final da lista | `append()` |

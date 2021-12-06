@@ -3,7 +3,28 @@
 
   ## 📑 Menu
   - [Atalhos do VSCODE](#-atalhos-vscode)
-  - [Atalhos do VSCODE](#-atalhos-vscode)
+  - [Tipos de variáveis](#-tipos-de-variável-python)
+  - [Condições](#-condições)
+  - [Break](#-break)
+  - [Comandos Básicos](#-básico)
+  - [Operadores Aritméticos](#-operadores-aritméticos)
+  - [Operadores de Comparação](#-operadores-de-comparação)
+  - [Ordem de Precedência](#-ordem-de-precedência)
+  - [Alinhamento](#-alinhamento)
+  - [Importar Itens](#-importar-itens)
+  - [Bibliotecas Python](#-bibliotecas)
+  - [Biblioteca Math](#-biblioteca-math)
+  - [Importação](#-importação)
+  - [Cores no Terminal](#-cores-no-terminal)
+  - [Tabela de cores de Letras no Terminal](#-tabela-de-cores-letras-no-terminal)
+  - [Estilos no Terminal](#-estilos-no-terminal)
+  - [Cores Manual](#-substituir-cores-você-mesmo)
+  - [Formatar String](#-formatação-de-string)
+  - [Builtin Functions](#-builtin-functions-funções-embutidas)
+  - [Manipulando Textos](#-manipulando-textos)
+  - [Transformação](#-transformação)
+  - [Divisão de textos](#-divisão)
+  - [Tipo List](#-tipo-list)
   
 ## ✅ ATALHOS VSCODE
  

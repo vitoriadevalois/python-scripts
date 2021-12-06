@@ -1,7 +1,7 @@
   # <p align="center"> 💻 Anotações e Informações Úteis 💻
   [![PYTHON](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
 
-## ATALHOS VSCODE 💻
+## ✅ ATALHOS VSCODE
  
  | Função | Atalho |
  | --- | --- |
@@ -9,7 +9,7 @@
  | Abrir uma abreviação | CRTL + SHIFT + P (Selecionar Emmet: Wrap With Abbreviation) |
  | Adicionar comentário em linhas selecionadas | CRTL + ; |
 
-## TIPOS DE VARIÁVEL PYTHON 💻
+## ✅ TIPOS DE VARIÁVEL PYTHON
 
  ▫️ int -> (7, -4, 0, 9843)
  
@@ -19,7 +19,7 @@
  
  ▫️ str -> ("Olá", "7.5" "")
 
- ## CONDIÇÕES 💻
+ ## ✅ CONDIÇÕES
  São elas: if, elif, else, while, for.
  
  ▫️ IF -> Utilizamos o comando if para verificar uma expressão e executar um bloco de código caso a condição definida seja verdadeira. É importante dizer que a instrução if pode ser utilizada sozinha, ou seja, apenas para executar algo se a condição for verdadeira. Observe que devemos utilizar o caractere dois pontos “:” ao final da instrução.
@@ -80,10 +80,10 @@ else:
 
 Assim como acontece com for/else, declarando o else ao final do while é possível executar um código ao final do loop. Neste caso será impressa a mensagem: “O loop while foi encerrado com sucesso!”.
 
-## BREAK 💻
+## ✅ BREAK
  É muito importante saber usar o break no Python, já que em alguns casos precisamos interromper um laço no meio do caminho.
  
-## BÁSICO 💻
+## ✅ BÁSICO
 
  ▫️ print -> (exprimir algo na tela)
  
@@ -98,7 +98,7 @@ Assim como acontece com for/else, declarando o else ao final do while é possív
  `print("É um prazer te conhecer, {}!".format(nome))
  int(input('valor que recebe número inteiro))`
 
-## OPERADORES ARITMÉTICOS 💻
+## ✅ OPERADORES ARITMÉTICOS
 
  ▫️ + Adicção
  
@@ -114,7 +114,7 @@ Assim como acontece com for/else, declarando o else ao final do while é possív
  
  ▫️ % Resto da Divisão
 
-## OPERADORES DE COMPARAÇÃO 💻
+## ✅ OPERADORES DE COMPARAÇÃO
  
  ▫️ < - menor que
  
@@ -128,7 +128,7 @@ Assim como acontece com for/else, declarando o else ao final do while é possív
  
  ▫️ != - diferente de
 
-## ORDEM DE PRECEDÊNCIA 💻
+## ✅ ORDEM DE PRECEDÊNCIA
  ▫️ 1º ()
  
  ▫️ 2º ** potências 
@@ -137,7 +137,7 @@ Assim como acontece com for/else, declarando o else ao final do while é possív
  
  ▫️ 4º + - 
 
-## ALINHAMENTO 💻
+## ✅ ALINHAMENTO
 
  `nome = input('Qual seu nome? ')
  
@@ -163,16 +163,16 @@ Assim como acontece com for/else, declarando o else ao final do while é possív
  
  `print('Prazer em te conhecer {:=^20}!'.format(nome))`
 
- ## IMPORTAR ITENS 💻
+ ## ✅ IMPORTAR ITENS
  
  `import [bebida]` (vai importar tudo de bebida)
  
  `from [bebida] import cafe` (vai importar apenas o café das bebidas)
 
-## BIBLIOTECAS 💻
+## ✅ BIBLIOTECAS
  Link com as bibliotecas python: https://docs.python.org/3/library/math.html
  
-## BIBLIOTECA MATH 💻
+## ✅ BIBLIOTECA MATH
 
  ▫️ ceil -> (arredondamento pra cima)
  
@@ -186,12 +186,12 @@ Assim como acontece com for/else, declarando o else ao final do while é possív
  
  ▫️ factorial -> (fatorial de um numero)
 
-## IMPORTAÇÃO 💻
+## ✅ IMPORTAÇÃO
  Utilizar import (nome da biblioteca)
  
  Exemplo: se precisar de um calculo só de raiz quadrada, então: `from math import sqrt`
 
-## CORES NO TERMINAL 💻
+## ✅ CORES NO TERMINAL
 
  \033[ style  text   back m
 
@@ -200,7 +200,7 @@ Assim como acontece com for/else, declarando o else ao final do while é possív
  33 -> texto
  44 -> back
 
-## TABELA DE CORES LETRAS NO TERMINAL 💻
+## ✅ TABELA DE CORES LETRAS NO TERMINAL
 
  ▫️ \033[31m Vermelho
  
@@ -220,7 +220,7 @@ Assim como acontece com for/else, declarando o else ao final do while é possív
  
  (Para inserir apenas em um local utilizar {} e fechar com \033[m)
 
-## TABELA DE CORES FUNDO NO TERMINAL 💻
+## ✅ TABELA DE CORES FUNDO NO TERMINAL
 
  ▫️ \033[1;31;44mOlá Fundo Azul
  
@@ -236,7 +236,7 @@ Assim como acontece com for/else, declarando o else ao final do while é possív
  
  (Para inserir apenas em um local utilizar {} e fechar com \033[m)
 
-## ESTILOS NO TERMINAL 💻
+## ✅ ESTILOS NO TERMINAL
  
  0 -> nenhum
  
@@ -246,7 +246,7 @@ Assim como acontece com for/else, declarando o else ao final do while é possív
  
  7 -> negativo
 
-## SUBSTITUIR CORES VOCÊ MESMO 💻
+## ✅ SUBSTITUIR CORES VOCÊ MESMO
  
  Text:
  
@@ -284,13 +284,13 @@ Assim como acontece com for/else, declarando o else ao final do while é possív
  
  ▫️ 47 cinza 
 
-## FORMATAÇÃO DE STRING 💻
+## ✅ FORMATAÇÃO DE STRING
  https://docs.python.org/3/library/string.html#formatexamples
 
-## BUILTIN FUNCTIONS (funções embutidas) 💻
+## ✅ BUILTIN FUNCTIONS (funções embutidas)
  https://docs.python.org/3/library/functions.html
 
-## MANIPULANDO TEXTOS 💻
+## ✅ MANIPULANDO TEXTOS
 
  ### FATIAMENTO
  Entre colchetes colocamos o número, referente a lacuna reservada na memória do computador, que queremos na tela.
@@ -309,7 +309,7 @@ Assim como acontece com for/else, declarando o else ao final do while é possív
  
  Obs.: Se o valor devolvido for -1 = não foi encontrado.
 
- ## TRANSFORMAÇÃO 💻
+ ## ✅ TRANSFORMAÇÃO
  
  | Função | Comando |
  | --- | --- |
@@ -322,7 +322,7 @@ Assim como acontece com for/else, declarando o else ao final do while é possív
  | Remover os últimos espaços do lado right | `frase.rstrip()` |
  | Remover os primeiros espaços do lado esquerdo | `frase.lstrip()` |
 
- ## DIVISÃO 💻 
+ ## ✅ DIVISÃO
  
  | Função | Comando |
  | --- | --- |
@@ -334,7 +334,7 @@ Assim como acontece com for/else, declarando o else ao final do while é possív
  | --- | --- |
  | Junção das frases por - | `'-'.join(frase)` |
 
- ## TIPO LIST 💻
+ ## ✅ TIPO LIST
  
  | Função | Comando |
  | --- | --- |

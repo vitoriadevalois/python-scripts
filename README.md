@@ -9,9 +9,9 @@
 > Scripts usando a linguagem de programação Python, feitos a partir de aulas para iniciantes no assunto. <br>
 > O objetivo do repositório é apresentar exercícios resolvidos utilizando a linguagem de programação Python.
 
-## 📑 Tópicos
+## 📑 Menu
 
-[1 - Scripts Gerais](https://github.com/vitoriadevalois/python-scripts/tree/main/scripts-python/exercicios%20gerais)
+[1 - Scripts Gerais](https://github.com/vitoriadevalois/python-scripts/tree/main/scripts-python/scripts%20gerais)
 
 [2 - Scripts com estrutura while](https://github.com/vitoriadevalois/python-scripts/tree/main/scripts-python/estrutura%20while)
   

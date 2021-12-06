@@ -1,6 +1,10 @@
   # <p align="center"> 💻 Anotações e Informações Úteis 💻
   [![PYTHON](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
 
+  ## 📑 Menu
+  - [Atalhos do VSCODE](#-atalhos-vscode)
+  - [Atalhos do VSCODE](#-atalhos-vscode)
+  
 ## ✅ ATALHOS VSCODE
  
  | Função | Atalho |
